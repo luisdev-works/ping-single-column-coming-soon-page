@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="dist/css/main.min.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="/images/logo.svg" alt="Ping Logo" />
+        <h1 class="header__title">
+          <span class="header__title--spam">We are launching</span> soon!
+        </h1>
+        <p class="header__paragraph">Subscribe and get notified</p>
+        <form action="index.html" class="header__form" method="post" id="form">
+          <div class="header__form--control">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Your email address"
+            />
+            <small>Error Message</small>
+            <button class="header__form--button">Notify Me</button>
+          </div>
+        </form>
+      </div>
+      <div class="header__image">
+        <img
+          src="/images/illustration-dashboard.png"
+          alt=""
+          class="header__img--img"
+        />
+      </div>
+      <div class="header__icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <p class="header__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </header>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/luisdev-works" target="_blank">Luis</a>.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9423f34437.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
